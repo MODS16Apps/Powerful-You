@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:paddingBottom="20dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/emergencystatsbg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="EMERGENCY STATISTICS"
+        android:id="@+id/emergencystatistics"
+        android:textSize="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DRUNK DRIVING"
+        android:id="@+id/drunkdriving"
+        android:textSize="40dp"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ddstats"
+        android:id="@+id/ddstats"
+        android:textSize="30dp"
+        android:layout_weight="0.19"
+        android:padding="5dp"
+        android:layout_marginLeft="45dp" />
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lightning"
+        android:textSize="40dp"
+        android:text="LIGHTNING"
+        android:padding="10dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lightstat"
+        android:id="@+id/lightstat"
+        android:textSize="30dp"
+        android:layout_marginLeft="45dp" />
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BIKING"
+        android:id="@+id/biking"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bikestats"
+        android:id="@+id/bikestats"
+        android:textSize="30dp"
+        android:layout_weight="0.14"
+        android:layout_below="@+id/emergencystatistics"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="45dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SHARK ATTACKS"
+        android:id="@+id/sharkattacks"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:layout_above="@+id/sharkstats"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sharkstats"
+        android:id="@+id/sharkstats"
+        android:textSize="30dp"
+        android:layout_weight="0.66"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp" />
+
+</LinearLayout>
+    </ScrollView>

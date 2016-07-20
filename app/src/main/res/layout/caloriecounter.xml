@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/caloriecounterbg"
+    android:id="@+id/calcounter">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CALORIE COUNTER"
+        android:textSize="80dp"
+        android:padding="10dp"
+        android:background="#b3ffffff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/caloriecountertitle"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcounterdesc"
+        android:id="@+id/calcounterdesc"
+        android:layout_gravity="center_horizontal"
+        android:background="#b3ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#b3ffffff">
+
+        <org.mods.powerfulyou.Food
+            android:id="@+id/pizza"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/pizza"
+            android:layout_margin="10dp" />
+        <org.mods.powerfulyou.Food
+            android:id="@+id/cookie"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cookie"
+            android:layout_margin="10dp" />
+        <org.mods.powerfulyou.Food
+            android:id="@+id/carrot"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/carrot"
+            android:layout_margin="10dp" />
+        <org.mods.powerfulyou.Food
+            android:id="@+id/blueberries"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/blueberries"
+            android:layout_margin="10dp" />
+        <org.mods.powerfulyou.Food
+            android:id="@+id/icecream"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/icecream"
+            android:layout_margin="10dp" />
+        <org.mods.powerfulyou.Food
+            android:id="@+id/apple"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/apple"
+            android:layout_margin="10dp" />
+
+
+    </LinearLayout>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/male"
+            android:checked="true"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="setGender" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/female"
+            android:checked="false"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="setGender" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:id="@+id/age"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/userage"
+            android:layout_marginLeft="15dp"
+            android:textIsSelectable="false"
+            android:textSize="30dp"
+            android:background="#99ffffff"
+            android:padding="7dp"
+            android:text="30"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight:"
+            android:id="@+id/weight"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp" />
+
+        <EditText
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/userweight"
+            android:textSize="30dp"
+            android:background="#99ffffff"
+            android:padding="7dp"
+            android:text="180"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="15dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CALORIES: 0"
+        android:id="@+id/counter"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#b3ffffff"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="70dp">
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="READY TO EAT!"
+        android:id="@+id/calculate"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#b3ffffff"
+        android:padding="10dp"
+        android:textSize="35dp"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:id="@+id/reset"
+        android:layout_gravity="right"
+        android:background="#b3ffffff"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:textSize="30dp"
+        android:onClick="reset"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <!--
+    ! Excerpted from "Hello, Android",
+    ! published by The Pragmatic Bookshelf.
+    ! Copyrights apply to this code. It may not be used to create training material,
+    ! courses, books, articles, and the like. Contact us if you are in doubt.
+    ! We make no guarantees that this code is fit for any purpose.
+    ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+   -->
+   <RelativeLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+    android:gravity="center|center_horizontal"
+    android:background="@drawable/powerfulland">
+
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/layout">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text=""
+            android:id="@+id/health"
+            android:layout_marginTop="193dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="health"
+            android:textStyle="normal"
+            android:background="@drawable/healthicon" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text=""
+            android:id="@+id/emergency"
+            android:textSize="40dp"
+            android:onClick="emergency"
+            android:background="@drawable/emergencyicon"
+            android:layout_above="@+id/medical"
+            android:layout_toRightOf="@+id/health"
+            android:layout_marginLeft="82dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text=""
+            android:id="@+id/medical"
+            android:layout_marginTop="30dp"
+            android:textSize="40dp"
+            android:layout_below="@+id/health"
+            android:layout_alignLeft="@+id/health"
+            android:background="@drawable/medicalicon"
+            android:onClick="medical"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/strength"
+            android:textSize="40dp"
+            android:layout_alignTop="@+id/medical"
+            android:layout_alignLeft="@+id/emergency"
+            android:onClick="strength"
+            android:background="@drawable/strengthicon" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/hygiene"
+            android:textSize="40dp"
+            android:onClick="hygiene"
+            android:background="@drawable/hygieneicon"
+            android:layout_above="@+id/medical"
+            android:layout_alignLeft="@+id/credits" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/credits"
+            android:background="@drawable/credits"
+            android:onClick="credits"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/strength"
+            android:layout_toRightOf="@+id/strength"
+            android:layout_marginLeft="73dp" />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/map"
+            android:layout_above="@+id/credits"
+            android:layout_toRightOf="@+id/hygiene"
+            android:background="@drawable/map"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/C:/Users/Dita/Documents/MODS%20Internship/FAU%20Class/Android%20Studio%20Code/Sudokuv1%20-%20Powerful%20You/app/src/main/res/layout-land/main.xml -->

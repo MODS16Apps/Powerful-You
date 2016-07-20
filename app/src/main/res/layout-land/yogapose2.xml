@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:paddingBottom="20dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e7bc1"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deeplungeposetitle"
+        android:id="@+id/deeplungeposetitle"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="454dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/deeplungeposedesc"
+        android:id="@+id/deeplungepose"
+        android:textColor="#ffffff"
+        android:textSize="38dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joeysdeeplunge"
+        android:src="@drawable/joeysdeeplunge"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="269dp"
+        android:layout_height="50dp"
+        android:text="@string/nextpose2"
+        android:id="@+id/nextpose"
+        android:textSize="35dp"
+        android:background="#73ffffff"
+        android:textColor="#ffffff"
+        android:onClick="nextpose"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="269dp"
+        android:layout_height="50dp"
+        android:text="@string/previouspose1"
+        android:id="@+id/previouspose"
+        android:layout_marginTop="-61dp"
+        android:background="#73ffffff"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:padding="3dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="previouspose"/>
+
+</LinearLayout>
+    </ScrollView>

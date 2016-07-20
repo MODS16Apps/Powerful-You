@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HYGIENE"
+            android:id="@+id/hygiene"
+            android:textSize="90dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="#73ffffff"
+            android:gravity="center"
+            android:autoText="false" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/hygiene_desc"
+            android:id="@+id/hygienedesc"
+            android:textIsSelectable="false"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:background="#73ffffff"
+            android:layout_below="@+id/hygiene"
+            android:layout_alignParentLeft="true"
+            android:autoText="false" />
+
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/C:/Users/Dita/Documents/MODS%20Internship/FAU%20Class/Android%20Studio%20Code/Sudokuv1%20-%20Powerful%20You/app/src/main/res/layout/hygiene.xml -->
