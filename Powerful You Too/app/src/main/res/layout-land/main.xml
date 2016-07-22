@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <!--
+    ! Excerpted from "Hello, Android",
+    ! published by The Pragmatic Bookshelf.
+    ! Copyrights apply to this code. It may not be used to create training material,
+    ! courses, books, articles, and the like. Contact us if you are in doubt.
+    ! We make no guarantees that this code is fit for any purpose.
+    ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+   -->
+   <RelativeLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+    android:gravity="center|center_horizontal"
+    android:background="@drawable/powerfulland">
+
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/layout">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text=""
+            android:id="@+id/health"
+            android:layout_marginTop="193dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="health"
+            android:textStyle="normal"
+            android:background="@drawable/powerfulyou" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text=""
+            android:id="@+id/emergency"
+            android:textSize="40dp"
+            android:onClick="emergency"
+            android:background="@drawable/powerfu_team"
+            android:layout_above="@+id/medical"
+            android:layout_toRightOf="@+id/health"
+            android:layout_marginLeft="82dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text=""
+            android:id="@+id/medical"
+            android:layout_marginTop="30dp"
+            android:textSize="40dp"
+            android:layout_below="@+id/health"
+            android:layout_alignLeft="@+id/health"
+            android:background="@drawable/cuttingedge"
+            android:onClick="medical"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/strength"
+            android:textSize="40dp"
+            android:layout_alignTop="@+id/medical"
+            android:layout_alignLeft="@+id/emergency"
+            android:onClick="strength"
+            android:background="@drawable/powerfulpulse" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/credits"
+            android:background="@drawable/thanks"
+            android:onClick="credits"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="78dp"
+            android:layout_above="@+id/map"
+            android:layout_toRightOf="@+id/emergency" />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/map"
+            android:background="@drawable/map"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="74dp" />
+    </RelativeLayout>
+</RelativeLayout>

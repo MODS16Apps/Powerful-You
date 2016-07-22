@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+
+   //POWERFUL YOU
+   <string name="app_name">Powerful You</string>
+
+   <string name="settings_label">Settings...</string>
+   <string name="settings_title">Sudoku settings</string>
+
+    //HEALTH
+    <string name="info_health">Health</string>
+    <string name="title_activity_health">Health</string>
+    <string name="health_desc">  With the growing population of fast food chains and busy schedules for people to make a healthy meal and exercise, the temptation to eat junk food is greater than ever. Keeping your body in shape is essential in maintaining a healthy lifestyle. </string>
+        //CALORIE COUNTER
+        <string name="info_caloriecounter"><b>Calorie Counter</b></string>
+        <string name="title_activity_caloriecounter">Calorie Counter</string>
+        <string name="calcounterdesc">Drag any following food items onto the plate below to find out how many calories they all add up to and how much exercise you would need to burn them all off!</string>
+        //HEALTH QUIZ
+        <string name="info_healthquiz"><b>Health Quiz</b></string>
+        <string name="title_activity_healthquiz">Health Quiz</string>
+        //QUESTIONS + BUTTONS
+        <string name="q1">1. About how many US adults suffer from obesity? \n\nA. One-third \nB. One-fourth \nC.Two-thirds \nD. One-half</string>
+        <string name="q1button"><b>Check Answer</b></string>
+        <string name="q2">2. Which of the following are health problems associated with obesity? \n\nA. Heart Attack \nB. Stroke \nC. Hypertension \nD. All of the above</string>
+        <string name="q2button"><b>Check Answer</b></string>
+        <string name="q3">3. Which of the following foods gives the highest source of protein? \n\nA. Beans \nB. Tuna \nC. Tofu \nD. Milk</string>
+        <string name="q3button"><b>Check Answer</b></string>
+        <string name="q4">4. Which of the following exercises burns the most calories per hour? \n\nA. Zumba \nB. Jump Rope \nC. Cycling \nD. Aerobics</string>
+        <string name="q4button"><b>Check Answer</b></string>
+        <string name="q5">5. For the average adult, what is the healthiest heart rate to have? \n\nA. 60-100 bpm \nB. 40-60 bpm \nC. Above 100 bpm \nD. Below 40 bpm</string>
+        <string name="q5button"><b>Check Answer</b></string>
+            //HEALTH QUIZ ANSWERS
+            <string name="q1a"><b>A. About one-third of US adults suffer from obesity.</b> \nThat is about 78.6 million people, and the rate is continuing to grow.</string>
+            <string name="q2a"><b>D. All of those choices are health risks of obesity.</b> \nIncreased weight causes strain on a person’s arteries which causes them to suffer these illnesses and possibly die from preventable death causes.</string>
+            <string name="q3a"><b>B. Tuna is the highest source of protein from the list above.</b> \nIt is also one of the highest sources of protein of any food that you can eat along with salmon and snapper, which have 22 grams in a 3 ounce filet - that is about 1 gram per 4.5 calories!</string>
+            <string name="q4a"><b>C. Cycling provides the best cardio exercise to burn calories.</b> \nIf a person cycles for one hour they have the capacity to burn up to 1000 calories!</string>
+            <string name="q5a"><b>A. 60-100 bpm is the average, healthy heart rate for an adult.</b> \nBradycardia is a slowed heart rate below 60 bpm, and Tachycardia is a fast-paced heart rate about 100 bpm.</string>
+
+    //EMERGENCY
+    <string name="info_emergency"><b>Emergency</b></string>
+    <string name="title_activity_emergency">Emergency</string>
+        //STATS
+        <string name="info_emergencystats"><b>Emergency Statistics</b></string>
+        <string name="title_activity_emergencystats">Emergency Statistics</string>
+        <string name="ddstats">• <b>Every two minutes</b> a person is injured in a drunk driving accident. \n• See the drunk driving simulation machine!</string>
+        <string name="lightstat">• Lightning kills about <b>39 people each year</b>.  \n• Avoid being in open areas and get out of the water to prevent lightning strikes!</string>
+        <string name="bikestats">• In 2013, <b>743 people died</b> in bicycle-related accidents. \n• When you are biking, always watch out for cars!</string>
+        <string name="sharkstats">• About <b>half of all shark attacks</b> in the US take place in Florida. \n• Look for the Tiger, Blacktip, Lemon, and Bull sharks in Florida.</string>
+
+    //MEDICAL
+    <string name="info_medical"><b>Medical</b></string>
+    <string name="title_activity_medical">Medical</string>
+        //MEDICAL TOOLS
+        <string name="info_medicaltools"><b>Medical</b></string>
+        <string name="title_activity_medicaltools">Medical</string>
+    //STRENGTH
+    <string name="info_strength"><b>Strength</b></string>
+    <string name="title_activity_strength">Strength</string>
+    <string name="strength_desc"> What makes our blood go round! </string>
+        //YOGA POSE 1
+        <string name="info_yogapose1"><b>Yoga Pose</b></string>
+        <string name="title_activity_yogapose1">Yoga Pose</string>
+        //YOGA POSE 2
+        <string name="info_yogapose2"><b>Yoga Pose</b></string>
+        <string name="title_activity_yogapose2">Yoga Pose</string>
+        //YOGA POSE 2
+        <string name="info_yogapose3"><b>Yoga Pose</b></string>
+        <string name="title_activity_yogapose3">Yoga Pose</string>
+
+        //BRAINTEASERS
+        <string name="info_brainteasers"><b>Brainteasers</b></string>
+        <string name="title_activity_brainteasers">Brainteasers</string>
+        <string name="brainteaserstitle">BRAINTEASERS</string>
+        <string name="brainteasersdesc">Try out these brainteasers to challenge your mind! Press on the image to see the answer.</string>
+        <string name="b1"><b>Crossroads!</b></string>
+        <string name="b2"><b>Reading between the lines!</b></string>
+        <string name="b3"><b>Just around the corner!</b></string>
+        <string name="b4"><b>Three degrees below zero!</b></string>
+
+    <string name="yogaposes">Pulse Power</string>
+    <string name="yogaposedesc"> "Don't go bacon my heart!" </string>
+    <string name="mountainposetitle"><b>MT. JOEY</b></string>
+    <string name="mountainpose">Angioplasty is a procedure used to inflate narrow blood vessels for people who suffer from arterial atherosclerosis. A thin wire is placed through the narrow vessel and inflates like a balloon, widening the vessel back to normal and improving blood flow. Then the balloon is deflated and removed. </string>
+    <string name="deeplungeposetitle"><b>How to have a healthy heart!</b></string>
+    <string name="deeplungeposedesc"> "To keep your heart healthy, you need to eat healthy. Try to avoid excessive fatty foods like cookies and chips. These fatty foods can lead to high blood pressure and high blood sugar. Try eating more fruits and veggies.
+Exercise daily. It doesn't have to be 1000 push-ups. As long as you exercise for at least an hour a day, it keeps heart issues away
+Avoid too much cholesterol. Too much cholesterol can cause your arteries to have blockages and lead to heart problems."
+</string>
+    <string name="previouspose1">BACK</string>
+    <string name="downwardfacingdogtitle"><b> Plumbing Pulmonary </b></string>
+    <string name="downwardfacingdogposedesc">Your heart’s plumbing system’s goal is to circulate blood with oxygen from the heart to the rest of the body. The main “roads” is arteries and veins. Arteries carry away blood from the heart and veins bring blood to the heart. First, blood comes in through the veins to the right atrium. The blood is passed on to the right ventricle. The pulmonary artery then carries the blood to the lungs so it can receive oxygen. The veins carry the blood back to the left atrium. The blood is passed on to the left ventricle. Then the aorta carries to the blood to the rest of the body.
+    </string>
+    <string name="previouspose2">BACK</string>
+    <string name="nextpose2">NEXT</string>
+    <string name="nextpose1">NEXT</string>
+
+    //CREDITS
+    <string name="creditstitle"><b>CREDITS</b></string>
+    <string name="credits">  Alexis Alonso [creator - Graphics] \n Ansley White [creator - UI] \n Haerunnisa Dewindita [creator - Java] \n Florida Atlantic University \n Dr. Shankar, Prof. McAfee, and Dr. Mitsova-Boneva. \n Santiago Aguerrevere, Demetrius Dukes, and Alain Edwards \n The Museum of Discovery and Science \n Summer Scarlatelli and Joe Cytacki [Supervisors] \n United Way of Broward County  </string>
+    <string name="title_activity_credits">Credits</string>
+
+    //SKELETON
+    <string name="info_skeleton"><b>Skeleton</b></string>
+    <string name="title_activity_skeleton">Skeleton</string>
+    <string name="electricalsystem" > Electrical System </string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skeleton">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CRANIUM"
+            android:id="@+id/cranium"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HUMERUS"
+            android:id="@+id/humerus"
+            android:layout_marginTop="90dp"
+            android:layout_below="@+id/cranium"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="96dp"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RIB CAGE"
+            android:id="@+id/ribcage"
+            android:layout_alignTop="@+id/humerus"
+            android:layout_alignLeft="@+id/cranium"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RADIUS &amp; ULNA"
+            android:id="@+id/radiusandulna"
+            android:layout_marginTop="74dp"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp"
+            android:layout_below="@+id/ribcage"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PELVIS"
+            android:id="@+id/pelvis"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/humerus" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="METACARPALS &amp; PHALANGES"
+            android:id="@+id/metanphalange"
+            android:layout_below="@+id/pelvis"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="100dp"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEMUR"
+            android:id="@+id/femur"
+            android:textColor="#000000"
+            android:background="#73ffffff"
+            android:padding="5dp"
+            android:textSize="35dp"
+            android:layout_below="@+id/metanphalange"
+            android:layout_toRightOf="@+id/cranium" />
+
+    </RelativeLayout>
+</LinearLayout>

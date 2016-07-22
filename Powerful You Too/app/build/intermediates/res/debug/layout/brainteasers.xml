@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:paddingBottom="20dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e7bc1"
+    android:paddingBottom="30dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BRAINTEASERS!"
+        android:id="@+id/brainteaserstitle"
+        android:textSize="90dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brainteasersdesc"
+        android:id="@+id/brainteasersdesc"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:padding="15dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/openbrainteasers1"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/brainteasers1"
+        android:layout_marginTop="20dp"
+        android:paddingTop="30dp"
+        android:alpha=".9" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:id="@+id/openbrainteasers2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/brainteasers2"
+        android:layout_marginTop="40dp"
+        android:alpha=".9" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/openbrainteasers3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/brainteasers3"
+        android:alpha=".9" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/openbrainteasers4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/brainteasers4"
+        android:alpha=".9" />
+</LinearLayout>
+    </ScrollView><!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/layout/brainteasers.xml -->

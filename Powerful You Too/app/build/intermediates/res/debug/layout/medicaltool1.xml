@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    android:paddingBottom="20dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#063561"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" Medical Imaging"
+            android:id="@+id/stethoscope"
+            android:textSize="90dp"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="35dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="A Look Inside Your Body!"
+            android:layout_gravity="center_horizontal"
+            android:textSize="35dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" Ultrasounds, X-Ray, Biopsy, etc..."
+            android:layout_gravity="left|center_horizontal"
+            android:textSize="35dp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Now you might be asking, what does medical imaging entail? what are it's uses and why is it so important in modern technology? Well since you;re so interested as an avid knowledge consumer, you should know that a very important aspect of medical imaging has to do with the clinical analysis of the visual display of the function of our organ systems. Sound like gibberish? Let's take ultrasounds for example. It's primary usage is for viewing blood flow, organ function, and growing fetuses. Similarly, CT Scans view muscle and soft tissue through computerized tomography. X-Rays are scans that can detect broken bones or soft tissue that lies within the bone.  "
+            android:id="@+id/stethoscopetext"
+            android:textSize="25dp"
+            android:layout_weight="0.31"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" Tumor?! What's that?"
+            android:id="@+id/forcepsdesc"
+            android:textSize="35sp"
+            android:gravity="left|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" A tumor is a swelling of a part of the body, generally without inflammation, caused by an abnormal growth of tissue, whether benign or malignant."
+            android:id="@+id/textView"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.35"
+            android:layout_marginTop="-20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Pictures!!!"
+            android:id="@+id/scalpeldesc"
+            android:textSize="35dp"
+            android:gravity="left|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_blue_bright" />
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/layout/medicaltool1.xml -->
