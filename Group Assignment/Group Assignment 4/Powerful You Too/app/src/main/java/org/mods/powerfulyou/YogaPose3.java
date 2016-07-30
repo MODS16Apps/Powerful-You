@@ -30,12 +30,15 @@ public class YogaPose3 extends Activity implements View.OnClickListener {
 
         View previousposeButton = findViewById(R.id.previouspose);
         previousposeButton.setOnClickListener(this);
+        View nextposeButton = findViewById(R.id.nextpose);
+        nextposeButton.setOnClickListener(this);
 
         //font stuff
         String printClearly = "fonts/printclearly.otf";
         TextView downwardfacingdogTitle = (TextView) findViewById(R.id.downwardfacingdogposetitle);
         TextView downwardfacingdogDesc = (TextView) findViewById(R.id.downwardfacingdogepose);
         TextView previousPose = (TextView) findViewById(R.id.previouspose);
+        TextView nextpose = (TextView) findViewById(R.id.nextpose);
         Typeface tfPC = Typeface.createFromAsset(getAssets(), printClearly);
         downwardfacingdogTitle.setTypeface(tfPC);
         downwardfacingdogDesc.setTypeface(tfPC);
@@ -82,4 +85,5 @@ public class YogaPose3 extends Activity implements View.OnClickListener {
 
 
 }
+
 

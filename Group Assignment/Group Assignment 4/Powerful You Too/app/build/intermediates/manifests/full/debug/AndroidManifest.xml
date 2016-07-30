@@ -2,9 +2,9 @@
 <!--
  ! Excerpted from "Hello, Android",
  ! published by The Pragmatic Bookshelf.
- ! Copyrights apply to this code. It may not be used to create training material, 
+ ! Copyrights apply to this code. It may not be used to create training material,
  ! courses, books, articles, and the like. Contact us if you are in doubt.
- ! We make no guarantees that this code is fit for any purpose. 
+ ! We make no guarantees that this code is fit for any purpose.
  ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -12,13 +12,12 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="10" />
-
-    <application
+    <application>
+        <uses-sdk
+            android:minSdkVersion="16"
+            android:targetSdkVersion="10" />
         android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name">
         <android:uses-permission
             android:name="android.permission.WRITE_EXTERNAL_STORAGE"
             android:maxSdkVersion="18" />
@@ -38,52 +37,37 @@
         </activity>
         <activity
             android:name="org.mods.powerfulyou.Health"
-            android:label="@string/title_activity_health" >
-        </activity>
+            android:label="@string/title_activity_health" />
         <activity
             android:name="org.mods.powerfulyou.HealthQuiz"
-            android:label="Health Quiz" >
-        </activity>
+            android:label="Health Quiz" />
         <activity
             android:name="org.mods.powerfulyou.Emergency"
-            android:label="@string/title_activity_emergency" >
-        </activity>
+            android:label="@string/title_activity_emergency" />
         <activity
             android:name="org.mods.powerfulyou.EmergencyStats"
-            android:label="@string/title_activity_emergencystats" >
-        </activity>
+            android:label="@string/title_activity_emergencystats" />
         <activity
             android:name="org.mods.powerfulyou.Medical"
-            android:label="@string/title_activity_medical" >
-        </activity>
+            android:label="@string/title_activity_medical" />
         <activity
             android:name="org.mods.powerfulyou.MedicalTools"
-            android:label="@string/title_activity_medicaltools" >
-        </activity>
+            android:label="@string/title_activity_medicaltools" />
         <activity
             android:name="org.mods.powerfulyou.Strength"
-            android:label="@string/title_activity_strength" >
-        </activity>
+            android:label="@string/title_activity_strength" />
         <activity
             android:name="org.mods.powerfulyou.YogaPose1"
-            android:label="@string/title_activity_yogapose1" >
-        </activity>
+            android:label="@string/title_activity_yogapose1" />
         <activity
             android:name="org.mods.powerfulyou.YogaPose2"
-            android:label="@string/title_activity_yogapose2" >
-        </activity>
+            android:label="@string/title_activity_yogapose2" />
         <activity
             android:name="org.mods.powerfulyou.YogaPose3"
-            android:label="@string/title_activity_yogapose3" >
-        </activity>
-        <activity
-            android:name="org.mods.powerfulyou.electricalsystem"
-            android:label="@string/electricalsystem" >
-        </activity>
+            android:label="@string/title_activity_yogapose3" />
         <activity
             android:name="org.mods.powerfulyou.Brainteasers"
-            android:label="@string/title_activity_brainteasers" >
-        </activity>
+            android:label="@string/title_activity_brainteasers" />
         <activity
             android:name="org.mods.powerfulyou.CalorieCounter"
             android:label="@string/title_activity_caloriecounter" >
@@ -95,18 +79,19 @@
         </activity>
         <activity
             android:name="org.mods.powerfulyou.Skeleton"
-            android:label="@string/title_activity_skeleton" >
-        </activity>
+            android:label="@string/title_activity_skeleton" />
         <activity
             android:name="org.mods.powerfulyou.Credits"
-            android:label="@string/title_activity_credits" >
-        </activity>
+            android:label="@string/title_activity_credits" />
 
         <receiver android:name="org.mods.powerfulyou.MyBroadcastReceiver" >
             <intent-filter>
                 <action android:name="org.mods.powerfulyou" />
             </intent-filter>
         </receiver>
+
+        <activity android:name="org.mods.powerfulyou.careers" />
+        <activity android:name="org.mods.powerfulyou.electricalsystem" />
     </application>
 
 </manifest>

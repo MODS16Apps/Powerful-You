@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/values/arrays.xml -->
+    <!-- From: file:/C:/Users/bjoseph/Documents/GitHub/Powerful-You/Group%20Assignment/Group%20Assignment%204/Powerful%20You%20Too/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <array name="difficulty">
 
    </array>
-    <!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/bjoseph/Documents/GitHub/Powerful-You/Group%20Assignment/Group%20Assignment%204/Powerful%20You%20Too/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background">#35282b93</color>
-    <!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/bjoseph/Documents/GitHub/Powerful-You/Group%20Assignment/Group%20Assignment%204/Powerful%20You%20Too/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/C:/Users/bjoseph/Documents/GitHub/Powerful-You/Group%20Assignment/Group%20Assignment%204/Powerful%20You%20Too/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="electricalsystem" type="id"/>
-    <!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/values/integers.xml -->
+    <!-- From: file:/C:/Users/bjoseph/Documents/GitHub/Powerful-You/Group%20Assignment/Group%20Assignment%204/Powerful%20You%20Too/app/src/main/res/values/integers.xml -->
     <eat-comment/>
     <integer name="cal">100</integer>
-    <!-- From: file:/C:/BIJU/Powerful%20You%20v5/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/bjoseph/Documents/GitHub/Powerful-You/Group%20Assignment/Group%20Assignment%204/Powerful%20You%20Too/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Powerful You</string>
     <string name="b1"><b>Crossroads!</b></string>
